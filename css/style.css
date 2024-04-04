@@ -47,8 +47,16 @@ header>p{
 #formulario>h2{
   padding: 100px 0px 20px;
 }
+
 #formulario{
   text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 input{
