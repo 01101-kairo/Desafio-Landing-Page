@@ -1,5 +1,6 @@
-*{
+body,h1,h2,p{
   margin: 0px;
+  padding: 0px;
   font-family: "Inter", sans-serif;
 }
 
@@ -12,24 +13,23 @@ h1{
   font-size:50px;
   padding: 200px 0px 15px 50px;
 }
+
 strong{
   font-size:30px;
 }
+
 header>p{
   padding: 0px 0px 100px 50px;
 }
 
 #texto, #infomacoes{
   display: grid;
-  grid-auto-flow:column;
+  grid-auto-flow: column;
   columns: auto;
 }
 
 #infomacoes{
   background-color: #F9F9F9;
-  display: grid;
-  grid-auto-flow: column;
-  columns: auto;
 }
 
 #infomacoes>p{
